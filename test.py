@@ -24,11 +24,11 @@ def report(i, lower, higher):
     ld = divides(lower, i)
     hd = divides(higher, i)
     if ld and hd:
-        print("HANS DECKERS")
+        print("HANS DEKKERS")
     elif ld:
         print("HANS")
     elif hd:
-        print("DECKERS")
+        print("DEKKERS")
     else:
         print(i)
 
